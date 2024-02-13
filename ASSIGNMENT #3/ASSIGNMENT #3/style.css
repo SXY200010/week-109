@@ -1,0 +1,119 @@
+ body {  
+  font-family: Arial, sans-serif;
+  margin: 0;  
+  padding: 0;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;   
+  }  
+
+  .container {  
+    width: 980px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    position: relative;
+  }  
+  
+  header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+
+  header img {  
+    max-width: 100%;  
+    height: auto;  
+  }  
+
+  .banner {  
+    background-color: rgb(85, 82, 252);  
+    padding: 20px;  
+    text-align: center;  
+  }  
+
+  .banner a {  
+    text-decoration: none;  
+    color: #fff;  
+  }  
+
+  .banner h1 {  
+    margin: 0;
+    color: #fff;  
+  } 
+
+  .banner p {  
+    margin: 10px;
+    color: #fff;  
+  }  
+
+  .banner1 {  
+    background-color: #fff;  
+    padding: 20px; 
+    margin: 10px; 
+    text-align: center;  
+  }  
+
+  .banner1 h2 {  
+    margin: 20px;
+    color: #000;  
+  }
+
+  .productDetails {
+    width: 30%; 
+    margin-left: 10px;
+    margin-top: 75px;
+    float: right;
+  }
+
+  .productDetails p{
+    text-indent: 2em;
+  }
+
+  .productDetails h3{
+    color: rgb(85, 82, 252) ;
+  }
+
+  .buy{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 177px;
+  }
+
+  .buy h3{
+    color: rgb(85, 82, 252) ;
+  }
+
+  .hotspot-map img {  
+    width: 40%;  
+    height: auto; 
+    float: right;
+  }
+
+  hr{
+    border-style:solid;
+    border-color:rgb(85, 82, 252);
+    border-width:4px;
+    width: 100%;
+  }
+
+  main img{
+    margin: 20px;
+    max-width: 50%;
+    height: auto;
+  }
+
+  a {
+    text-align: center; 
+    display: block; 
+    margin: auto; 
+}
+
+  footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    font-size: 12px;  
+    width: 100%;
+  }  
+
+  
+  

@@ -1,0 +1,110 @@
+body {  
+  font-family: Arial, sans-serif;
+  margin: 0;  
+  padding: 0;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;   
+  }  
+
+  .container {  
+    width: 980px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    position: relative;
+  }  
+  
+  header {  
+    text-align: center;  
+    margin-bottom: 20px;  
+  }  
+
+  header img {  
+    max-width: 100%;  
+    height: auto;  
+  }  
+
+  .banner {  
+    background-color: rgb(85, 82, 252);  
+    padding: 20px;  
+    text-align: center;  
+  }  
+
+  .banner a {  
+    text-decoration: none;  
+    color: #fff;  
+  }  
+
+  .banner h1 {  
+    margin: 0;
+    color: #fff;  
+  } 
+
+  .banner p {  
+    margin: 10px;
+    color: #fff;  
+  }   
+
+table {   
+    border: none;   
+  }  
+    
+  td, th {  
+    padding: 0.5em;  
+    border: none; 
+  }  
+    
+  td {  
+    text-align: center;
+  }  
+    
+  .text {  
+    text-align: left;  
+  }  
+    
+  tr:nth-of-type(odd) {  
+    background-color: #53cbfa; 
+  }
+
+  .price{
+    width: 20%;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 22%;
+    margin-right: 0%;
+  }
+
+  .data{
+    width: 20%;
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 22%;
+  }
+
+  hr{
+    border-style:solid;
+    border-color:rgb(85, 82, 252);
+    border-width:4px;
+    width: 100%;
+  }
+
+  main img{
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+  a {
+    text-align: center; 
+    display: block; 
+    margin: auto; 
+}
+  footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    font-size: 12px;  
+    width: 100%;
+  }  
