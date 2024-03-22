@@ -1,0 +1,129 @@
+  body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f0f0f0;  
+    margin: 0;  
+    padding: 20px;  
+  }  
+
+  .container {  
+    width: 980px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    position: relative;
+  }
+    
+  header {  
+    background-color: rgb(71, 71, 72);  
+    color: #fff;  
+    padding: 10px;  
+    text-align: center;  
+  }  
+    
+  header img {  
+    max-width: 100%;  
+    height: auto;  
+    vertical-align: middle;  
+    margin-right: 10px;  
+  }  
+    
+  header a {  
+    color: #fff;  
+    text-decoration: none;  
+  }  
+    
+  h1 {
+    background-color: rgb(180, 211, 1);  
+    color: #fff;  
+    text-align: center;
+  }
+
+  h2 {
+    color:rgb(180, 211, 1);  
+  }
+
+  h3 {
+    background-color: rgb(180, 211, 1);  
+    color: #fff;  
+    text-align: center;
+    font-style: italic;
+  }
+
+  h4 {
+    color: rgb(180, 211, 1);  
+  }
+
+  span{
+    color: red;
+}
+sup{
+    color: red;
+}
+
+  #evaluation-form {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 20px;  
+  }  
+    
+  #evaluation-form label {  
+    display: inline-block; 
+    margin-bottom: 5px;  
+  }  
+    
+  #evaluation-form input[type="radio"] {  
+    margin-right: 5px; 
+    margin-bottom: 5px;  
+    vertical-align: middle;
+  }
+
+  #evaluation-form input[type="text"],  
+  #evaluation-form input[type="email"],  
+  #evaluation-form textarea {  
+    width: 100%;  
+    padding: 5px;  
+    box-sizing: border-box;  
+    margin-bottom: 10px;  
+  }  
+    
+  #evaluation-form textarea {  
+    height: 100px;  
+  }  
+    
+  #evaluation-form input[type="submit"],  
+  #evaluation-form input[type="reset"] {  
+    padding: 5px 10px;  
+    border-radius: 3px;  
+    cursor: pointer;  
+  }  
+    
+  #evaluation-form input[type="submit"] {  
+    background-color: #4CAF50; /* Green */  
+    color: white;  
+    border: none;  
+  }  
+    
+  #evaluation-form input[type="submit"]:hover {  
+    background-color: #45a049; /* Darker Green */  
+  }  
+    
+  #evaluation-form input[type="reset"] {  
+    background-color: #f44336; /* Red */  
+    color: white;  
+    border: none;  
+  }  
+    
+  #evaluation-form input[type="reset"]:hover {  
+    background-color: #da190b; /* Darker Red */  
+  }  
+    
+  footer {  
+    text-align: center;  
+    background-color: rgb(71, 71, 72); 
+    color: #fff;  
+    padding: 1px;  
+    position: fixed;  
+    bottom: 0;  
+    width: 100%;  
+  }
