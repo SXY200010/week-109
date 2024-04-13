@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="site-title">Housing Agency</h2>
+
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="listings.html">Lsitings</a>
+            <a href="contact.html">Contact</a>
+            <a href="sitemap.html">Site Map</a>
+        </div>
+    </nav>
+    
+    <div class="contact">  
+        <main>
+                <form id="contact-form">  
+                    <h1>Room Tour Application Form</h1> 
+                    <p><b>Required fields are marked with</b><sup> *</sup></p> 
+                    
+                    <label for="firstname">First Name<span>*</span>:</label>
+                    <input type="text" name="firstname" id="firstname" required> <br><br>
+
+                    <label for="lastname">Last Name<span>*</span>:</label>
+                    <input type="text" name="lastname" id="lastname" required> <br><br>
+
+                    <label for="email">Email<span>*</span>:</label>
+                    <input type="email" name="email" id="email" placeholder="someone@someplace.ca" required> <br><br>
+
+                    <label for="tel">Tel<span>*</span>:</label>
+                    <input type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\) +\d{3}-\d{4}" required> <br><br>
+                            
+                    <label for="street1">Street1<span>*</span>:</label>  
+                    <input type="text" id="street1" name="street1" required><br><br> 
+                    
+                    <label for="street2">Street2:</label>  
+                    <input type="text" id="street2" name="street2"><br><br> 
+
+                    <label for="city">City<span>*</span>:</label>  
+                    <input type="text" id="city" name="city"><br><br> 
+
+                    <label for="province">Province<span>*</span>:</label> <br> 
+                    <select id="province" name="province" required>  
+                    <option value="AB">Alberta </option>  
+                    <option value="BC">British Columbia</option>  
+                    <option value="MB">Manitoba</option>  
+                    <option value="NB">New Brunswick</option>  
+                    <option value="NL">Newfoundland and Labrador</option>  
+                    <option value="NS">Nova Scotia</option>  
+                    <option value="ON">Ontario </option>  
+                    <option value="PE">Prince Edward Island</option>  
+                    <option value="QC">Québec</option>  
+                    <option value="SK">Saskatchewan</option> 
+                    </select><br><br>  
+
+                    <label for="country">Country<span>*</span>:</label>  
+                    <input type="text" id="country" name="country"><br><br>
+
+                    <label>When to visit<span>*</span>:</label>
+                    <input type="datetime-local"> 
+                    
+                    <input type="submit" value="Submit Evaluation">  
+                    <input type="reset" value="Reset Form">
+
+                    <h3>Thank you! We will arrange your room tour as soon as possible!<br></h3>
+                </form>      
+        </main>      
+    </div> 
+
+    <div class="foot">
+        <p>© 2024 Housing Agency. All rights reserved.</p>
+    </div>
+</body>
+</html>

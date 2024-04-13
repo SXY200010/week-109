@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contace us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="site-title">Housing Agency</h2>
+
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="listings.html">Lsitings</a>
+            <a href="contact.html">Contact</a>
+            <a href="sitemap.html">Site Map</a>
+        </div>
+    </nav>
+
+    <div class="contact">  
+        <main>
+                <form id="contact-form">  
+                    <h1>Housing Preference Collection Form</h1> 
+                    <p><b>Required fields are marked with</b><sup> *</sup></p> 
+
+                    <h2>Personal Information</h2>
+                
+                    <label for="firstname">First Name<span>*</span>:</label>
+                    <input type="text" name="firstname" id="firstname" required> <br><br>
+
+                    <label for="lastname">Last Name<span>*</span>:</label>
+                    <input type="text" name="lastname" id="lastname" required> <br><br>
+
+                    <label for="email">Email<span>*</span>:</label>
+                    <input type="email" name="email" id="email" placeholder="someone@someplace.ca" required> <br><br>
+                            
+                    <label for="street1">Street1<span>*</span>:</label>  
+                    <input type="text" id="street1" name="street1" required><br><br> 
+                    
+                    <label for="street2">Street2:</label>  
+                    <input type="text" id="street2" name="street2"><br><br> 
+
+                    <label for="city">City<span>*</span>:</label>  
+                    <input type="text" id="city" name="city"><br><br> 
+
+                    <label for="province">Province<span>*</span>:</label> <br> 
+                    <select id="province" name="province" required>  
+                    <option value="AB">Alberta </option>  
+                    <option value="BC">British Columbia</option>  
+                    <option value="MB">Manitoba</option>  
+                    <option value="NB">New Brunswick</option>  
+                    <option value="NL">Newfoundland and Labrador</option>  
+                    <option value="NS">Nova Scotia</option>  
+                    <option value="ON">Ontario </option>  
+                    <option value="PE">Prince Edward Island</option>  
+                    <option value="QC">Québec</option>  
+                    <option value="SK">Saskatchewan</option> 
+                    </select><br><br>  
+
+                    <label for="country">Country<span>*</span>:</label>  
+                    <input type="text" id="country" name="country"><br><br>
+
+                    <h2>Housing Preference</h2>
+                
+                    <label for="city/town">City/Town<span>*</span>:</label> <br> 
+                    <select id="city/town" name="city/town" required>  
+                    <option value="Ajax">Ajax</option>  
+                    <option value="Aurora">Aurora</option>  
+                    <option value="Brampton">Brampton</option>  
+                    <option value="Burlington">Burlington</option>  
+                    <option value="Caledon">Caledon</option>  
+                    <option value="East Gwillimbury">East Gwillimbury</option>  
+                    <option value="Georgina">Georgina</option>  
+                    <option value="Halton Hills">Halton Hills</option>  
+                    <option value="King City">King City</option>  
+                    <option value="Markham">Markham</option> 
+                    <option value="Milton">Milton</option>  
+                    <option value="Mississauga">Mississauga</option>  
+                    <option value="Newmarket">Newmarket</option>  
+                    <option value="Oakville">Oakville</option>  
+                    <option value="Oshawa">Oshawa</option>  
+                    <option value="Pickering">Pickering</option>  
+                    <option value="Richmond Hill">Richmond Hill</option>  
+                    <option value="Toronto">Toronto</option>  
+                    <option value="Vaughan">Vaughan</option>  
+                    <option value="Whitby">Whitby</option> 
+                    <option value="Whitchurch-Stouffville">Whitchurch-Stouffville</option> 
+                    </select><br><br>  
+                    
+                    <label>Orientation<span>*</span>:</label><br>  
+                    <input type="radio" id="orientation-1" name="orientation" value="1" required>  
+                    <label for="orientation-1">North-south &nbsp;</label>  
+                    <input type="radio" id="orientation-2" name="orientation" value="2">  
+                    <label for="orientation-2">North &nbsp;</label>
+                    <input type="radio" id="orientation-3" name="orientation" value="3">  
+                    <label for="orientation-3">South &nbsp;</label>
+                    <input type="radio" id="orientation-4" name="orientation" value="4">  
+                    <label for="orientation-4">East &nbsp;</label> 
+                    <input type="radio" id="orientation-5" name="orientation" value="5">  
+                    <label for="orientation-5">West &nbsp;</label><br><br>  
+
+                    <label>Residential type<span>*</span>:</label><br>  
+                    <input type="radio" id="type-1" name="type" value="1" required>  
+                    <label for="type-1">Apartment &nbsp;</label>  
+                    <input type="radio" id="type-2" name="type" value="2">  
+                    <label for="type-2">Condo &nbsp;</label> 
+                    <input type="radio" id="type-3" name="type" value="3">  
+                    <label for="type-3">Townhouse &nbsp;</label>
+                    <input type="radio" id="type-4" name="type" value="4">  
+                    <label for="type-4">Villa &nbsp;</label><br><br>  
+
+                    <label>Floor<span>*</span>:</label><br>  
+                    <input type="radio" id="floor-1" name="floor" value="1" required>  
+                    <label for="floor-1">Low floors &nbsp;</label>
+                    <input type="radio" id="floor-2" name="floor" value="2">  
+                    <label for="floor-2">Middle floors &nbsp;</label>  
+                    <input type="radio" id="floor-3" name="floor" value="3">  
+                    <label for="floor-3">High floors &nbsp;</label>  
+                    <input type="radio" id="floor-4" name="floor" value="4">  
+                    <label for="floor-4">Top layer &nbsp;</label><br><br>  
+
+                    <label>Decoration<span>*</span>:</label><br>  
+                    <input type="radio" id="decoration-1" name="decoration" value="1" required>  
+                    <label for="decoration-1">Fine decoration &nbsp;</label>  
+                    <input type="radio" id="decoration-2" name="decoration" value="2">  
+                    <label for="decoration-2">Simple decoration &nbsp;</label> 
+                    <input type="radio" id="decoration-3" name="decoration" value="3">  
+                    <label for="decoration-3">Rough room &nbsp;</label><br><br>  
+
+                    <label>Building age<span>*</span>:</label><br>  
+                    <input type="radio" id="age-1" name="age" value="1" required>  
+                    <label for="age-1">Less than five years &nbsp;</label>  
+                    <input type="radio" id="age-2" name="age" value="2">  
+                    <label for="age-2">Less than ten years &nbsp;</label> 
+                    <input type="radio" id="age-3" name="age" value="3">  
+                    <label for="age-3">Less than twenty years &nbsp;</label>
+                    <input type="radio" id="age-4" name="age" value="4">  
+                    <label for="age-4">More than twenty years &nbsp;</label><br><br>  
+
+                    <label>Floor space<span>*</span>:</label><br>  
+                    <input type="radio" id="space-1" name="space" value="1" required>  
+                    <label for="space-1">Below 50㎡ &nbsp;</label>  
+                    <input type="radio" id="space-2" name="space" value="2">  
+                    <label for="space-2">Below 100㎡ &nbsp;</label> 
+                    <input type="radio" id="space-3" name="space" value="3">  
+                    <label for="space-3">Below 200㎡ &nbsp;</label>
+                    <input type="radio" id="space-4" name="space" value="4">  
+                    <label for="space-4">Over 200㎡ &nbsp;</label><br><br> 
+
+                    <label>Price<span>*</span>:</label><br>  
+                    <input type="radio" id="price" name="price" value="1" required>  
+                    <label for="price-1">Less than $200,000 &nbsp;</label>  
+                    <input type="radio" id="price-2" name="price" value="2">  
+                    <label for="price-2">Less than $500,000 &nbsp;</label> 
+                    <input type="radio" id="price-3" name="price" value="3">  
+                    <label for="price-3">Less than $800,000 &nbsp;</label>
+                    <input type="radio" id="price-4" name="price" value="4">  
+                    <label for="price-4">More than $800,000 &nbsp;</label><br><br> 
+
+                    <label for="other">Other preference:</label><br>  
+                    <textarea id="other" name="other" rows="4" cols="50" ></textarea><br><br>  
+                
+                    <input type="submit" value="Submit Evaluation">  
+                    <input type="reset" value="Reset Form">
+                    
+                    <h3>Thank you! We will help you find your dream home as soon as possible!<br></h3>
+                </form>                 
+        </main>      
+    </div> 
+
+    <div class="foot">
+        <p>© 2024 Housing Agency. All rights reserved.</p>
+    </div>
+</body>
+</html>

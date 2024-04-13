@@ -1,0 +1,508 @@
+/* currency */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 1000; 
+}
+
+.site-title {
+    text-align: left;
+    margin-right: 20px; 
+    margin-left: 20px;
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav-links {
+    text-align: right; 
+    float: right;
+    width: 50%;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* homepage */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* homepage banner */
+
+#content {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    width:100%;
+    height: 360px;
+    padding-top: 20px;
+}
+
+.slogan {
+    background-color: #FFFFFF; 
+    opacity: 0.6;
+    font-size: 4em;
+	padding: 10px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    }
+
+    /* Promotional slogans */
+
+.home{
+    margin: 80px 0px 200px 0px;
+}
+
+.home ul{
+    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 0px;
+}
+
+.home li{
+    display: inline;
+    color: #FFFFFF;
+    margin: 100px 85px;
+    padding: 50px 14px;
+}
+
+.home ul li:nth-child(odd) {  
+    background-color: #5aff02;  
+}  
+  
+.home ul li:nth-child(even) {  
+    background-color: #fdba4d; 
+}
+
+.home span{
+    color:#fdba4d;
+}
+
+.home p{
+    color: #777777;
+}
+
+/* housing resources */
+
+.housing{
+    margin-top: 150px;
+}
+
+.housing h2{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.housing p{
+    text-align: left;
+    margin-top: 0px;
+    color: #777777;
+}
+
+.housing p a{
+    float: right;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #777777;
+}
+
+.housing ul{
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.housing li{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 10px 39px;
+    border-radius: 4px;
+}
+
+.housing li .warpper{
+    height: 400px;
+    width: 300px;
+    margin: 24px;
+}
+
+.housing li .warpper a img{
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 3px 3px 3px #333333;  
+}
+
+.housing li .warpper .bottom h4{
+    text-align: left;
+    margin: 10px 0px;
+    width: 70%;
+}
+
+.housing li .warpper .bottom p{
+    text-align: left;
+    margin: 0px;
+    width: 70%;
+}
+
+.housing li .warpper .bottom .price{
+    color: red;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+    width: 30%;
+}
+
+/* listings */
+
+.list{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.list header{
+    text-align: left;
+    color: #fdba4d;
+}
+
+.list hr{
+    border-style:solid;
+    border-color:#5aff02;
+    border-width:2px;
+}
+
+.list img{
+    height: 300px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 3px 3px 3px #333333; 
+}
+
+.list h2{
+    color: red;
+}
+
+.location{
+    background-image: url("location.png");
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.houseinfo{
+    background-image: url("house.png");
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.list p{
+    text-decoration: none;
+    color: #777777;
+}
+
+.list table {  
+    border-collapse: collapse;  
+    border: none;   
+    width: 100%;  
+    margin-top: 50px;
+  }  
+   
+.list td, th {  
+    padding: 30px 0px;
+    border: none;  
+    text-align: left;  
+  }  
+      
+ .list tr:nth-of-type(odd) {  
+    background-color: #F5FAFC;   
+  }
+
+.list a{
+    text-decoration: none;
+    color: #fdba4d;
+}
+
+/* properties */
+
+.property {
+     width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.property header{
+    text-align: left;
+    color: #fdba4d;
+}
+
+.property hr{
+    border-style:solid;
+    border-color:#fdba4d;
+    border-width:2px;
+}
+
+/* property banner */
+
+.property .mainimg{
+    height: 450px;
+    width: 450px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 3px 3px 3px #333333; 
+    border-radius: 8px;
+}
+
+.property .banner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.property table {  
+    background-color: #F5FAFC; 
+    border-collapse: collapse; 
+    border: none;  
+    width: 100%;  
+    margin-top: 50px;
+  }  
+   
+.property td, th {  
+    padding: 10px 30px;
+    border: none;  
+    text-align: left;  
+  } 
+
+.property tr:nth-of-type(even) {  
+    background-color: #f2f2f2;   
+  }
+  
+.property .price{
+    color: red;
+    text-align: center;
+}
+
+.property p{
+    color: #777777;
+}
+
+.property .lable{
+    color: black;
+    margin-right: 24px;
+}
+
+.property a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.property ul{
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.property li{
+    display: inline-block;
+    box-shadow: 3px 3px 3px #333333; 
+}
+
+.property li:nth-child(odd) {
+    background-color:#5aff02; 
+}
+
+.property li:nth-child(even) {
+    background-color:#fdba4d; 
+}
+
+.property h2{
+    margin-top: 50px;
+}
+
+.property .basic{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.property tr:nth-child(6) {
+    border-bottom: 2px solid #fdba4d; 
+  }
+.property tr:nth-child(7) {
+    border-top: 2px solid #fdba4d; 
+  }
+
+.property .smallimg{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 0px;
+}
+
+/* contact */
+
+.contact{
+    width: 980px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    position: relative;
+}
+
+.contact h1{
+   background-color: #fdba4d; 
+   color: #FFFFFF;
+   text-align: center;
+}
+
+.contact h2{
+    color: #fdba4d;
+}
+
+.contact span{
+    color: red;
+}
+
+.contact sup{
+    color: red;
+}
+
+.contact h3{
+    text-align: center;
+    background-color: #fdba4d;
+    color: #FFFFFF;
+}
+
+#contact-form {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+    margin-bottom: 20px;  
+  }  
+    
+  #contact-form label {  
+    display: inline-block; 
+    margin-bottom: 5px;  
+  }  
+    
+  #contact-form input[type="radio"] {  
+    margin-right: 5px; 
+    margin-bottom: 5px;  
+    vertical-align: middle;
+  }
+
+  #contact-form input[type="text"],  
+  #contact-form input[type="email"],  
+  #contact-form input[type="tel"],  
+  #contact-form input[type="datetime-local"],
+  #contact-form textarea {  
+    width: 100%;  
+    padding: 5px;  
+    box-sizing: border-box;  
+    margin-bottom: 10px;  
+  }  
+    
+  #contact-form textarea {  
+    height: 100px;  
+  }  
+    
+  #contact-form input[type="submit"],  
+  #contact-form input[type="reset"] {  
+    padding: 5px 10px;  
+    border-radius: 3px;  
+    cursor: pointer;  
+  }  
+    
+  #contact-form input[type="submit"] {  
+    background-color:#5aff02; /* Green */  
+    color: white;  
+    border: none;  
+  }  
+    
+  #contact-form input[type="submit"]:hover {  
+    background-color: #45a049; /* Darker Green */  
+  }  
+    
+  #contact-form input[type="reset"] {  
+    background-color:#fdba4d; /* Red */  
+    color: white;  
+    border: none;  
+  }  
+    
+  #contact-form input[type="reset"]:hover {  
+    background-color:#bb6932; /* Darker Red */  
+  }  
+
+.sitemap{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}  
+
+.sitemap h2{
+    background-color: #fdba4d;
+    color: #FFFFFF;
+}
+
+.sitemap ul{
+    list-style-type: none;
+    background-color: #F5FAFC;
+    padding: 0px;
+}
+
+.sitemap a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer {
+    margin-top: 500px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.foot{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
